@@ -1,0 +1,15 @@
+# clj-bokelskere
+
+Library implementation of http://bokelskere.no/api/1.0/ using json, which is treated as Clojure maps.
+
+Bokelskere.no is a Norwegian social network about books, for book lovers.
+
+## Usage
+
+Bokelskere.no API is REST based, no authorization required. Just call the functions to get data. Bokelskere.no restricts get intervals to 1 second, which is respected in this library.
+
+## License
+
+Copyright (C) 2011 Aleksander Skjæveland Larsen, API and data is Copyright (C) Bokelskere.no (I suppose, as I don't see any copyright notices on their web site)
+
+Distributed under the Eclipse Public License, the same as Clojure.
