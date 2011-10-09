@@ -1,4 +1,5 @@
-(defproject clj-bokelskere "0.1.0"
+(defproject clj-bokelskere "1.0.0"
   :description "Implementation of Bokelskere.no API"
   :dependencies [[org.clojure/clojure "1.3.0"]
-                 [org.clojure/data.json "0.1.1"]])
+                 [clj-json "0.4.3"]]
+  :dev-dependencies [[org.clojars.weavejester/autodoc "0.9.0"]])
